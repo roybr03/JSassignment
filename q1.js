@@ -4,5 +4,5 @@ function  newPrice(currentPrice,discount) {
     }
 
     let results = (currentPrice - (currentPrice*(discount/100)));
-    return Number(results.toFixed(3));
+    return(results.toFixed(3));
 }

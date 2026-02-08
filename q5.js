@@ -1,5 +1,5 @@
 function  analzeText(str) {
-    if ( typeof str !== "string") {
+    if ( typeof str !== "string" || str.trim().length === 0) {
         return "Invalid";
     }
 

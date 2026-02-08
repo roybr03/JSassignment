@@ -18,5 +18,3 @@ function  analzeText(str) {
 
     };
 }
-let str = "I am a little honest person";
-console.log(analzeText(str));

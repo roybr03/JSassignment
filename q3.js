@@ -1,5 +1,5 @@
 function  finalScore(omr) {
-    if ( typeof(omr) !== "object") {
+    if ( typeof(omr) !== "object" || (omr.right+omr.wrong+omr.skip) !== 100) {
         return "Invalid";
     }
     if ( (omr.right+omr.wrong+omr.skip) === 100) {
